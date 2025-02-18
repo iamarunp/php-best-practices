@@ -1410,13 +1410,3 @@ protected function failedValidation(Validator $validator)
 ```
 
 * * *
-
-## **9. Best Practices**
-
--  **Use Form Request for all CRUD operations**  
--  **Keep rules simple; use Custom Rules for complex logic**  
--  **Use `validated()` to get only valid input**  
--  **Modify data using `prepareForValidation()` if needed**  
--  **Authorize requests with `authorize()` if required**
-
-* * *
